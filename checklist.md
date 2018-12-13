@@ -54,7 +54,7 @@ Not sure.
 > _11. List the assumptions you (or others) have made so far._
 
 * Assuming there are indeed some insights in the data
-* The statistics provided are deep enough to gleam some insights
+* The statistics provided are deep enough to glean some insights
 * The fact that wins and loses are measurable via rugby statistics
 
 

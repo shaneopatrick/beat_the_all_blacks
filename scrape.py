@@ -816,7 +816,7 @@ if __name__ == '__main__':
 
     # df = pd.read_csv('complete_df_1.csv')
     df = pd.read_csv('complete_df.csv')
-    df.pop('Unnamed: 0')
+    # df.pop('Unnamed: 0')
 
     # test = 'http://stats.espnscrum.com/statsguru/rugby/match/268591.html?view=scorecard'
     # #
@@ -842,11 +842,13 @@ if __name__ == '__main__':
     # print('### complete! ###')
 
     # match_id_lst = log_page_ids()
-    match_id_lst = [294424]
+    # match_id_lst = [296319, 296320, 296321]
+    # match_id_lst = [298567, 296322, 296323, 296324, 298575, 298576] #2018 rugby championship
+    match_id_lst = [298756, 295097, 296610, 299414, 299419] # 2018 fall tour
 
     df_new = hammer_time(df, match_id_lst)
 
-    df_new.to_csv('complete_df.csv')
+    df_new.to_csv('complete_df.csv', index=False)
 
     print('#### ALL DONE WOOOWHOOOOOO!!! ####')
 
